@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBEA8E741AEF21F400CABADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEA8E731AEF21F400CABADD /* Foundation.framework */; };
+		EBEA8E761AEF21F400CABADD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEA8E751AEF21F400CABADD /* CoreGraphics.framework */; };
+		EBEA8E781AEF21F400CABADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEA8E771AEF21F400CABADD /* UIKit.framework */; };
+		EBEA8E7E1AEF21F400CABADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBEA8E7C1AEF21F400CABADD /* InfoPlist.strings */; };
+		EBEA8E801AEF21F400CABADD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEA8E7F1AEF21F400CABADD /* main.m */; };
+		EBEA8E841AEF21F400CABADD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEA8E831AEF21F400CABADD /* AppDelegate.m */; };
+		EBEA8E871AEF21F400CABADD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEA8E851AEF21F400CABADD /* Main_iPhone.storyboard */; };
+		EBEA8E8A1AEF21F400CABADD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEA8E881AEF21F400CABADD /* Main_iPad.storyboard */; };
+		EBEA8E8D1AEF21F500CABADD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEA8E8C1AEF21F500CABADD /* ViewController.m */; };
+		EBEA8E8F1AEF21F500CABADD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEA8E8E1AEF21F500CABADD /* Images.xcassets */; };
+		EBEA8E961AEF21F500CABADD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEA8E951AEF21F500CABADD /* XCTest.framework */; };
+		EBEA8E971AEF21F500CABADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEA8E731AEF21F400CABADD /* Foundation.framework */; };
+		EBEA8E981AEF21F500CABADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEA8E771AEF21F400CABADD /* UIKit.framework */; };
+		EBEA8EA01AEF21F500CABADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBEA8E9E1AEF21F500CABADD /* InfoPlist.strings */; };
+		EBEA8EA21AEF21F500CABADD /* SpectacularTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEA8EA11AEF21F500CABADD /* SpectacularTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBEA8E991AEF21F500CABADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBEA8E681AEF21F400CABADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBEA8E6F1AEF21F400CABADD;
+			remoteInfo = Spectacular;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBEA8E701AEF21F400CABADD /* Spectacular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spectacular.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEA8E731AEF21F400CABADD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBEA8E751AEF21F400CABADD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBEA8E771AEF21F400CABADD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBEA8E7B1AEF21F400CABADD /* Spectacular-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spectacular-Info.plist"; sourceTree = "<group>"; };
+		EBEA8E7D1AEF21F400CABADD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBEA8E7F1AEF21F400CABADD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBEA8E811AEF21F400CABADD /* Spectacular-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spectacular-Prefix.pch"; sourceTree = "<group>"; };
+		EBEA8E821AEF21F400CABADD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBEA8E831AEF21F400CABADD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBEA8E861AEF21F400CABADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EBEA8E891AEF21F400CABADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EBEA8E8B1AEF21F400CABADD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBEA8E8C1AEF21F500CABADD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBEA8E8E1AEF21F500CABADD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBEA8E941AEF21F500CABADD /* SpectacularTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectacularTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEA8E951AEF21F500CABADD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EBEA8E9D1AEF21F500CABADD /* SpectacularTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpectacularTests-Info.plist"; sourceTree = "<group>"; };
+		EBEA8E9F1AEF21F500CABADD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBEA8EA11AEF21F500CABADD /* SpectacularTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectacularTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBEA8E6D1AEF21F400CABADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEA8E761AEF21F400CABADD /* CoreGraphics.framework in Frameworks */,
+				EBEA8E781AEF21F400CABADD /* UIKit.framework in Frameworks */,
+				EBEA8E741AEF21F400CABADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEA8E911AEF21F500CABADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEA8E961AEF21F500CABADD /* XCTest.framework in Frameworks */,
+				EBEA8E981AEF21F500CABADD /* UIKit.framework in Frameworks */,
+				EBEA8E971AEF21F500CABADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBEA8E671AEF21F400CABADD = {
+			isa = PBXGroup;
+			children = (
+				EBEA8E791AEF21F400CABADD /* Spectacular */,
+				EBEA8E9B1AEF21F500CABADD /* SpectacularTests */,
+				EBEA8E721AEF21F400CABADD /* Frameworks */,
+				EBEA8E711AEF21F400CABADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBEA8E711AEF21F400CABADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA8E701AEF21F400CABADD /* Spectacular.app */,
+				EBEA8E941AEF21F500CABADD /* SpectacularTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBEA8E721AEF21F400CABADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA8E731AEF21F400CABADD /* Foundation.framework */,
+				EBEA8E751AEF21F400CABADD /* CoreGraphics.framework */,
+				EBEA8E771AEF21F400CABADD /* UIKit.framework */,
+				EBEA8E951AEF21F500CABADD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBEA8E791AEF21F400CABADD /* Spectacular */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA8E821AEF21F400CABADD /* AppDelegate.h */,
+				EBEA8E831AEF21F400CABADD /* AppDelegate.m */,
+				EBEA8E851AEF21F400CABADD /* Main_iPhone.storyboard */,
+				EBEA8E881AEF21F400CABADD /* Main_iPad.storyboard */,
+				EBEA8E8B1AEF21F400CABADD /* ViewController.h */,
+				EBEA8E8C1AEF21F500CABADD /* ViewController.m */,
+				EBEA8E8E1AEF21F500CABADD /* Images.xcassets */,
+				EBEA8E7A1AEF21F400CABADD /* Supporting Files */,
+			);
+			path = Spectacular;
+			sourceTree = "<group>";
+		};
+		EBEA8E7A1AEF21F400CABADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA8E7B1AEF21F400CABADD /* Spectacular-Info.plist */,
+				EBEA8E7C1AEF21F400CABADD /* InfoPlist.strings */,
+				EBEA8E7F1AEF21F400CABADD /* main.m */,
+				EBEA8E811AEF21F400CABADD /* Spectacular-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBEA8E9B1AEF21F500CABADD /* SpectacularTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA8EA11AEF21F500CABADD /* SpectacularTests.m */,
+				EBEA8E9C1AEF21F500CABADD /* Supporting Files */,
+			);
+			path = SpectacularTests;
+			sourceTree = "<group>";
+		};
+		EBEA8E9C1AEF21F500CABADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA8E9D1AEF21F500CABADD /* SpectacularTests-Info.plist */,
+				EBEA8E9E1AEF21F500CABADD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBEA8E6F1AEF21F400CABADD /* Spectacular */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBEA8EA51AEF21F500CABADD /* Build configuration list for PBXNativeTarget "Spectacular" */;
+			buildPhases = (
+				EBEA8E6C1AEF21F400CABADD /* Sources */,
+				EBEA8E6D1AEF21F400CABADD /* Frameworks */,
+				EBEA8E6E1AEF21F400CABADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spectacular;
+			productName = Spectacular;
+			productReference = EBEA8E701AEF21F400CABADD /* Spectacular.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBEA8E931AEF21F500CABADD /* SpectacularTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBEA8EA81AEF21F500CABADD /* Build configuration list for PBXNativeTarget "SpectacularTests" */;
+			buildPhases = (
+				EBEA8E901AEF21F500CABADD /* Sources */,
+				EBEA8E911AEF21F500CABADD /* Frameworks */,
+				EBEA8E921AEF21F500CABADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBEA8E9A1AEF21F500CABADD /* PBXTargetDependency */,
+			);
+			name = SpectacularTests;
+			productName = SpectacularTests;
+			productReference = EBEA8E941AEF21F500CABADD /* SpectacularTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBEA8E681AEF21F400CABADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = VVV;
+				TargetAttributes = {
+					EBEA8E931AEF21F500CABADD = {
+						TestTargetID = EBEA8E6F1AEF21F400CABADD;
+					};
+				};
+			};
+			buildConfigurationList = EBEA8E6B1AEF21F400CABADD /* Build configuration list for PBXProject "Spectacular" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBEA8E671AEF21F400CABADD;
+			productRefGroup = EBEA8E711AEF21F400CABADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBEA8E6F1AEF21F400CABADD /* Spectacular */,
+				EBEA8E931AEF21F500CABADD /* SpectacularTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBEA8E6E1AEF21F400CABADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEA8E8A1AEF21F400CABADD /* Main_iPad.storyboard in Resources */,
+				EBEA8E8F1AEF21F500CABADD /* Images.xcassets in Resources */,
+				EBEA8E871AEF21F400CABADD /* Main_iPhone.storyboard in Resources */,
+				EBEA8E7E1AEF21F400CABADD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEA8E921AEF21F500CABADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEA8EA01AEF21F500CABADD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBEA8E6C1AEF21F400CABADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEA8E8D1AEF21F500CABADD /* ViewController.m in Sources */,
+				EBEA8E841AEF21F400CABADD /* AppDelegate.m in Sources */,
+				EBEA8E801AEF21F400CABADD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEA8E901AEF21F500CABADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEA8EA21AEF21F500CABADD /* SpectacularTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBEA8E9A1AEF21F500CABADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBEA8E6F1AEF21F400CABADD /* Spectacular */;
+			targetProxy = EBEA8E991AEF21F500CABADD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBEA8E7C1AEF21F400CABADD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBEA8E7D1AEF21F400CABADD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EBEA8E851AEF21F400CABADD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBEA8E861AEF21F400CABADD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EBEA8E881AEF21F400CABADD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBEA8E891AEF21F400CABADD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EBEA8E9E1AEF21F500CABADD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBEA8E9F1AEF21F500CABADD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBEA8EA31AEF21F500CABADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBEA8EA41AEF21F500CABADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBEA8EA61AEF21F500CABADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spectacular/Spectacular-Prefix.pch";
+				INFOPLIST_FILE = "Spectacular/Spectacular-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBEA8EA71AEF21F500CABADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spectacular/Spectacular-Prefix.pch";
+				INFOPLIST_FILE = "Spectacular/Spectacular-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EBEA8EA91AEF21F500CABADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spectacular.app/Spectacular";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spectacular/Spectacular-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpectacularTests/SpectacularTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EBEA8EAA1AEF21F500CABADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spectacular.app/Spectacular";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spectacular/Spectacular-Prefix.pch";
+				INFOPLIST_FILE = "SpectacularTests/SpectacularTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBEA8E6B1AEF21F400CABADD /* Build configuration list for PBXProject "Spectacular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEA8EA31AEF21F500CABADD /* Debug */,
+				EBEA8EA41AEF21F500CABADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBEA8EA51AEF21F500CABADD /* Build configuration list for PBXNativeTarget "Spectacular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEA8EA61AEF21F500CABADD /* Debug */,
+				EBEA8EA71AEF21F500CABADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBEA8EA81AEF21F500CABADD /* Build configuration list for PBXNativeTarget "SpectacularTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEA8EA91AEF21F500CABADD /* Debug */,
+				EBEA8EAA1AEF21F500CABADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBEA8E681AEF21F400CABADD /* Project object */;
+}
